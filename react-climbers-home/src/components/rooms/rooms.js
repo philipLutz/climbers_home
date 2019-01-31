@@ -4,7 +4,7 @@ import './rooms.css';
 export default class RoomsPage extends React.Component {
 	render() {
 		return (
-			<div>HELLO WORLD</div>
+			<div>Rooms Page</div>
 		);
 	}
 }

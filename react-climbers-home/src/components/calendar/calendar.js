@@ -4,7 +4,7 @@ import './calendar.css';
 export default class CalendarPage extends React.Component {
 	render() {
 		return (
-			<div>HELLO WORLD</div>
+			<div>Calendar Page</div>
 		);
 	}
 }

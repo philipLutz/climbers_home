@@ -4,7 +4,7 @@ import './landing.css';
 export default class LandingPage extends React.Component {
 	render() {
 		return (
-			<div>HELLO WORLD</div>
+			<div id="landing-container">Landing Page</div>
 		);
 	}
 }

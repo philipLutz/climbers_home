@@ -4,7 +4,7 @@ import './navigation.css';
 export default class Navigation extends React.Component {
 	render() {
 		return (
-			<div>HELLO WORLD</div>
+			<div>Navigation</div>
 		);
 	}
 }
