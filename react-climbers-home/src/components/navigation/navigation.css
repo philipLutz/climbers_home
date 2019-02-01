@@ -1,4 +1,5 @@
-* {
-	background-color: 29292a;
-	color: #fff;
+#navigation {
+  background-color: #29292a;
+  color: #fff;
+  height: 8vh;
 }

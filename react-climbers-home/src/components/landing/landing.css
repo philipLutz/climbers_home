@@ -1,3 +1,9 @@
 #landing-container {
-	background-image: url("../climbingPhotos");
+	/*background-image: url("../../climbingPhotos/goldCoastLari.jpg");*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 70% 13%;
+	height: 92vh;
+	color: #fff;
+	background-color: #29292a;
 }
