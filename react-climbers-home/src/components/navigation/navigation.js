@@ -5,10 +5,11 @@ import './navigation.css';
 
 export default class Navigation extends React.Component {
 	render() {
-
 		return (
 			<nav id="navigation">
-				<Logo />
+				<div id="logo-container">
+					<Logo id="logo" width="100%" height="100%" fill="#fff" viewBox="0 0 800 800" />
+				</div>
 				<ul>
 					<li>1</li>
 					<li>2</li>
