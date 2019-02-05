@@ -9,3 +9,36 @@
 	width: 9vh;
 	padding: 1vh;
 }
+
+.bm-burger-button {
+  position: fixed;
+  width: 6vh;
+  height: 6vh;
+  right: 2vh;
+  top: 2vh;
+}
+
+.bm-burger-bars {
+  background: #fff;
+}
+
+.bm-burger-bars-hover {
+  background: #61616B;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  top: 10vh;
+}
+
+.bm-menu {
+  background: #29292a;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  top: 10vh;
+}
