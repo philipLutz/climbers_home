@@ -8,7 +8,9 @@ export default class Navigation extends React.Component {
 		return (
 			<nav id="navigation">
 				<div id="logo-container">
-					<Logo id="logo" width="100%" height="100%" fill="#fff" viewBox="0 0 800 800" />
+					<Link to="/">
+						<Logo id="logo" width="100%" height="100%" fill="#fff" viewBox="0 0 800 800" />
+					</Link>
 				</div>
 				<ul>
 					<li>1</li>
