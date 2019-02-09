@@ -4,6 +4,17 @@
   height: 10vh;
 }
 
+#navigation h3 {
+  position: absolute;
+  top: 0;
+  height: 10vh;
+  width: 30vw;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 5vh;
+}
+
 #logo-container {
 	height: 9vh;
 	width: 9vh;

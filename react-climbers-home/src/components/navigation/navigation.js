@@ -13,6 +13,7 @@ export default class Navigation extends React.Component {
 						<Logo id="logo" width="100%" height="100%" fill="#fff" viewBox="0 0 800 800" />
 					</Link>
 				</div>
+				<h3>Climber's Home</h3>
 				<Burger right />
 			</nav>
 		);
