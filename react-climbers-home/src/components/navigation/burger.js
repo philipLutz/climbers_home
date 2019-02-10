@@ -10,10 +10,24 @@ export default class Burger extends React.Component {
   render () {
     return (
       <Menu right width={ '20%' }>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+        <Link to="/">
+          <h5>Home</h5>
+        </Link>
+        <Link to="/amenities">
+          <h5>Amenities</h5>
+        </Link>
+        <Link to="/rooms">
+          <h5>Rooms</h5>
+        </Link>
+        <Link to="/calendar">
+          <h5>Calendar</h5>
+        </Link>
+        <Link to="/beta">
+          <h5>Beta</h5>
+        </Link>
+        <Link to="/contact">
+          <h5>Contact</h5>
+        </Link>
       </Menu>
     );
   }

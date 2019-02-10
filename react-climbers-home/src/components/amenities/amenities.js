@@ -4,7 +4,7 @@ import './amenities.css';
 export default class AmenitiesPage extends React.Component {
 	render() {
 		return (
-			<div>Amenities Page</div>
+			<div id="amenities-container">Amenities Page</div>
 		);
 	}
 }

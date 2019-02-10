@@ -1,0 +1,9 @@
+#contact-container {
+	background-image: url("../../climbingPhotos/driveBy.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 65% 30%;
+	height: 90vh;
+	color: #fff;
+	background-color: #29292a;
+}
