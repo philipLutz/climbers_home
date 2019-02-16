@@ -2,6 +2,9 @@
   background-color: #29292a;
   color: #fff;
   height: 10vh;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
 }
 
 #navigation h3 {
@@ -14,8 +17,14 @@
   margin: 0;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1vh;
+  padding-top: 2vh;
   font-size: 4vh;
+}
+
+@media only screen and (max-width: 750px) {
+  #navigation h3 {
+    padding-top: 0.5vh;
+  }
 }
 
 #logo-container {
@@ -47,8 +56,7 @@
 
 .bm-menu {
   background: #29292a;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  font-size: 3vh;
 
 }
 

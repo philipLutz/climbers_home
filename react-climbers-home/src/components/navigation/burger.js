@@ -9,7 +9,7 @@ export default class Burger extends React.Component {
 
   render () {
     return (
-      <Menu right width={ '20%' }>
+      <Menu right width={ '28%' }>
         <Link to="/">
           <h5>Home</h5>
         </Link>
