@@ -4,6 +4,7 @@ import AmenitiesPage          from './components/amenities/amenities';
 import BetaPage               from './components/beta/beta';
 import CalendarPage           from './components/calendar/calendar';
 import ContactPage            from './components/contact/contact';
+import Footer                 from './components/footer/footer';
 import LandingPage            from './components/landing/landing';
 import Navigation             from './components/navigation/navigation';
 import RoomsPage              from './components/rooms/rooms';
@@ -23,6 +24,9 @@ class App extends Component {
           <Route exact path="/calendar" component={CalendarPage} />
           <Route exact path="/contact" component={ContactPage} />
           <Route exact path="/rooms" component={RoomsPage} />
+          <div id="footer-container">
+            <Footer />
+          </div>
         </main>
       </div>
     );

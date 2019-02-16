@@ -15,16 +15,7 @@ export default class BetaPage extends React.Component {
 					</p>
 					<h4>Gear</h4>
 					<p>
-						General: 
-					</p>
-					<p>
-						Sport Climbing: 
-					</p>
-					<p>
-						Trad Climbing: 
-					</p>
-					<p>
-						Bouldering: 
+
 					</p>
 					<h4>Food</h4>
 					<p>

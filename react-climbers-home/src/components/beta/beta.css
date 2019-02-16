@@ -8,7 +8,7 @@
 	background-color: #29292a;
 }
 
-h2 {
+#beta-image h2 {
 	margin: 0;
 	padding: 0;
 	position: absolute;
@@ -17,30 +17,29 @@ h2 {
 	font-size: 11vh;
 }
 
-h4 {
+#beta h4 {
 	margin: 0;
 	color: #fff;
 	background-color: #29292a;
-	font-size: 4vh;
+	font-size: 28px;
 	padding-top: 7vw;
 }
 
-p {
+#beta p {
 	background-color: #29292a;
 	margin: 0;
 	padding: 7vw;
-	font-size: 2.5vh;
+	font-size: 17px;
 }
 
 @media only screen and (min-width: 800px) {
-	p {
+	#beta p {
 		padding-left: 10vw;
 		padding-right: 10vw;
 	}
 }
 
 #beta {
-	height: 60vh;
 	color: #fff;
 	background-color: #29292a;
 }
