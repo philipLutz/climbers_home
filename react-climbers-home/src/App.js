@@ -10,6 +10,8 @@ import Navigation             from './components/navigation/navigation';
 import RoomsPage              from './components/rooms/rooms';
 import './App.css';
 
+require('dotenv').config();
+
 class App extends Component {
   render() {
     return (

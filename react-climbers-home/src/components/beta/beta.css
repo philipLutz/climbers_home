@@ -8,12 +8,32 @@
 	background-color: #29292a;
 }
 
-#madness-cave-photo {
+#madness-cave-photo3 {
+	background-image: url("../../climbingPhotos/madnessCave3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 10% 60%;
+	height: 80vh;
+	color: #fff;
+	background-color: #29292a;
+}
+
+#madness-cave-photo2 {
 	background-image: url("../../climbingPhotos/madnessCave2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 10% 60%;
 	height: 80vh;
+	color: #fff;
+	background-color: #29292a;
+}
+
+#drive-by {
+	background-image: url("../../climbingPhotos/driveBy.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 75% 0%;
+	height: 100vh;
 	color: #fff;
 	background-color: #29292a;
 }

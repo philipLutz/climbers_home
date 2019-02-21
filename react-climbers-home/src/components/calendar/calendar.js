@@ -38,7 +38,11 @@ export default class CalendarPage extends React.Component {
 		// );
 
 		return (
-			<div id="calendar-container">hello calendar</div>
+			<div id="calendar-container">
+				<p id="calendar-p">
+					This calendar feature to reference while making your reservation is not available right now.  We will get it up and running as soon as possible.
+				</p>
+			</div>
 		);
 	}
 }
