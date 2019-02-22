@@ -26,9 +26,6 @@ class App extends Component {
           <Route exact path="/calendar" component={CalendarPage} />
           <Route exact path="/contact" component={ContactPage} />
           <Route exact path="/rooms" component={RoomsPage} />
-          <div id="footer-container">
-            <Footer />
-          </div>
         </main>
       </div>
     );
