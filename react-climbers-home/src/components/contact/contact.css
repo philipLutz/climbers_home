@@ -47,8 +47,32 @@
 	color: #fff;
 }
 
+#contact a:hover {
+	color: #61616B;
+}
+
+#contact a:focus {
+	color: #61616B;
+}
+
+#contact a:active {
+	color: #61616B;
+}
+
 #contact i {
 	font-size: 10vh;
+}
+
+#contact i:hover {
+	color: #61616B;
+}
+
+#contact i:focus {
+	color: #61616B;
+}
+
+#contact i:active {
+	color: #61616B;
 }
 
 @media only screen and (min-height: 900px) {
@@ -65,4 +89,8 @@
 		padding-left: 30vw;
 		padding-right: 30vw;
 	}
+}
+
+#map-image-container {
+	background-color: #29292a;
 }

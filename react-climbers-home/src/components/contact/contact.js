@@ -39,7 +39,7 @@ export default class ContactPage extends React.Component {
 					</div>
 					<div id="map-image-container">
 						<a href="https://www.google.com/maps/place/488+N+Main+St,+Stanton,+KY+40380/@37.8523327,-83.856699,148m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88439e7ae5b69337:0x52199d2bd0002bc0!8m2!3d37.8523316!4d-83.8561518" target="_blank" rel="noopener noreferrer">
-							<img src={"https://maps.googleapis.com/maps/api/staticmap?center=37.852386,-83.856159&zoom=14&maptype=hybrid&size=300x300&markers=icon:" + logoPath + "|37.852386,-83.856159&key=" + GOOGLE_API_KEY} title="Google Map Location" alt="Google Map Location" />
+							<img src={"https://maps.googleapis.com/maps/api/staticmap?center=37.852386,-83.856159&zoom=14&maptype=hybrid&size=320x320&markers=icon:" + logoPath + "|37.852386,-83.856159&key=" + GOOGLE_API_KEY} title="Google Map Location" alt="Google Map Location" />
 						</a>
 					</div>
 				</div>

@@ -19,6 +19,18 @@
   outline: 0;
 }
 
+#navigation button:active {
+  outline: 0;
+}
+
+#navigation h5:active {
+  outline: 0;
+}
+
+#navigation a:active {
+  outline: 0;
+}
+
 #navigation h3 {
   position: absolute;
   top: 0;
@@ -31,12 +43,6 @@
   margin-right: auto;
   padding-top: 2vh;
   font-size: 4vh;
-}
-
-@media only screen and (max-width: 750px) {
-  #navigation h3 {
-    padding-top: 0.5vh;
-  }
 }
 
 #logo-container {
@@ -84,4 +90,18 @@
 
 .bm-item:hover {
   color: #61616B;
+}
+
+.bm-item:focus {
+  color: #61616B;
+}
+
+.bm-item:active {
+  color: #61616B;
+}
+
+@media only screen and (max-width: 750px) {
+  #navigation h3 {
+    padding-top: 0.5vh;
+  }
 }
