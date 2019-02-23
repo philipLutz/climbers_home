@@ -21,7 +21,7 @@ export default class BetaPage extends React.Component {
 					<div id="madness-cave-photo3"></div>
 					<h4>Gear</h4>
 					<p>
-
+						
 					</p>
 					<div id="drive-by"></div>
 					<h4>Food</h4>

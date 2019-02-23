@@ -12,7 +12,7 @@
 	background-image: url("../../climbingPhotos/madnessCave3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 10% 60%;
+	background-position: 65% 60%;
 	height: 80vh;
 	color: #fff;
 	background-color: #29292a;
@@ -22,7 +22,7 @@
 	background-image: url("../../climbingPhotos/madnessCave2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 10% 60%;
+	background-position: 12% 60%;
 	height: 80vh;
 	color: #fff;
 	background-color: #29292a;
@@ -63,6 +63,7 @@
 	padding-left: 7vw;
 	padding-right: 7vw;
 	font-size: 17px;
+	line-height: 23px;
 }
 
 @media only screen and (min-width: 800px) {

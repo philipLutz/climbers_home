@@ -1,23 +1,25 @@
 import request from 'superagent';
 
-const CALENDAR_ID = ;
-const API_KEY = ;
-let url = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`;
+const CALENDAR_ID = process.env.REACT_APP_CALENDAR_ID;
+const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
+let URL = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${GOOGLE_API_KEY}`;
 
 export function getEvents (callback) {
   request
-    .get(url)
+    .get(URL)
     .end((err, resp) => {
       if (!err) {
-        const events = []
+        const events = [];
+        console.log(resp);
         JSON.parse(resp.text).items.map((event) => {
           events.push({
             start: event.start.date || event.start.dateTime,
             end: event.end.date || event.end.dateTime,
-            title: event.summary,
+            status: event.summary,
+            room: event.location
           })
         })
-        callback(events)
+        callback(events);
       }
-    })
+    });
 }
