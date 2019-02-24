@@ -15,8 +15,7 @@ export function getEvents (callback) {
           events.push({
             start: event.start.date || event.start.dateTime,
             end: event.end.date || event.end.dateTime,
-            status: event.summary,
-            room: event.location
+            title: event.summary
           })
         })
         callback(events);
