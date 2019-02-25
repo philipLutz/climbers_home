@@ -21,7 +21,7 @@ import './react-big-calendar.css';
 //     monthlyRecurrence: 20
 // }
 
-let allViews = Object.keys(BigCalendar.Views).map(k => BigCalendar.Views[k]);
+
 
 export default class CalendarPage extends React.Component {
 	constructor () {
@@ -32,7 +32,6 @@ export default class CalendarPage extends React.Component {
 	}
 	componentDidMount () {
 	    getEvents((response) => {
-	    	console.log(response);
 	    	let events = [];
 	    	for (let i=0; i<response.length; i++) {
 	    		events.push(response[i]);
@@ -45,12 +44,18 @@ export default class CalendarPage extends React.Component {
 		const localizer = BigCalendar.momentLocalizer(moment);
 
 		return (
-			<div id="calendar-container">
-				<BigCalendar
-					events={this.state.events}
-				    views={allViews}
-				    localizer={localizer}
-			      />
+			<div id="calendar-page">
+				<div id="calendar-container">
+					<BigCalendar 
+						id="calendar"
+						events={this.state.events}
+					    views={['month']}
+					    localizer={localizer}
+					    showMultiDayTimes
+					    step={60}
+					    defaultDate={new Date()}
+				      />
+				</div>
 			</div>
 		);
 

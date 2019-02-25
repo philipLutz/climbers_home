@@ -1,7 +1,23 @@
+#calendar-page {
+	position: absolute;
+	top: 10vh;
+	height: 150vh;
+	background-color: #29292a;
+	width: 100vw;
+}
+
 #calendar-container {
-	height: 100vh;
+	padding-top: 3vh;	
+	height: 80vh;
+	width: 96vw;
 	color: #fff;
 	background-color: #29292a;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+#calendar {
+
 }
 
 #calendar-p {
