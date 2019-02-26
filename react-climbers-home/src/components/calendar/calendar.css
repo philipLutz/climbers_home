@@ -16,8 +16,12 @@
 	padding-right: 2vw;
 }
 
-#calendar {
+#calendar button:focus {
+	outline: 0;
+}
 
+#calendar button:active {
+	outline: 0;
 }
 
 #calendar-p {

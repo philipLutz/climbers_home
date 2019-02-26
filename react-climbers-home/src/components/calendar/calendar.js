@@ -27,7 +27,8 @@ export default class CalendarPage extends React.Component {
 	constructor () {
 	    super()
 	    this.state = {
-	      events: []
+	      events: [],
+	      dayChosen: new Date()
 		}
 	}
 	componentDidMount () {
@@ -54,6 +55,35 @@ export default class CalendarPage extends React.Component {
 					    showMultiDayTimes
 					    step={60}
 					    defaultDate={new Date()}
+					    date={this.state.dayChosen}
+						onNavigate={(focusDate, flipUnit, prevOrNext) => {
+
+						const _this = this;
+						let now = new Date();
+						let nowNum = now.getDate();
+						let min = moment(now).add(1, "month").toDate();
+						let minNum = min.getDate();
+						let current = _this.state.dayChosen;
+						let currentNum = current.getDate();
+						let nextMonth = moment(current).add(1, "month").toDate();
+						let nextMonthNum = nextMonth.getDate();
+						let prevMonth = moment(current).subtract(1, "month").toDate();
+						let prevMonthNum = prevMonth.getDate();
+
+						  if (prevOrNext === "NEXT"){
+						        _this.setState({
+						          dayChosen: nextMonth
+						        });
+						  } else if (prevOrNext === "PREV" && current < min) {
+						  		_this.setState({
+						          dayChosen: now
+						        });
+						  } else if (prevOrNext === "PREV"){
+							  	_this.setState({
+									dayChosen: prevMonth
+							  	});
+						  }
+						}}
 				      />
 				</div>
 			</div>

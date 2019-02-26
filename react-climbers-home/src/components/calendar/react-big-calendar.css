@@ -3,6 +3,12 @@
   font: inherit;
   margin: 0;
 }
+button:focus {
+  outline: 0;
+}
+button:active {
+  outline: 0;
+}
 button.rbc-btn {
   overflow: visible;
   text-transform: none;
@@ -214,11 +220,11 @@ button.rbc-input::-moz-focus-inner {
   cursor: inherit;
   pointer-events: none;
 }
-.rbc-event.rbc-selected {
+/*.rbc-event.rbc-selected {
   background-color: #265985;
-}
+}*/
 .rbc-event:focus {
-  outline: 5px auto #3b99fc;
+  outline: 0;
 }
 .rbc-event-label {
   font-size: 80%;
