@@ -5,24 +5,6 @@ import { getEvents } 	from './getEvents.js';
 import './calendar.css';
 import './react-big-calendar.css';
 
-// const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
-// const calendarURL = 'https://calendar.google.com/calendar/embed?src=51dtqg3dukqtjp0i3delels808%40group.calendar.google.com&ctz=America%2FLos_Angeles';
-
-// const calendar_configuration = {
-//     api_key: GOOGLE_API_KEY,
-//     calendars: [
-//       {
-//         name: 'Climber\'s Home', // whatever you want to name it
-//         url: calendarURL // your calendar URL
-//       }
-//     ],
-//     dailyRecurrence: 700,
-//     weeklyRecurrence: 500,
-//     monthlyRecurrence: 20
-// }
-
-
-
 export default class CalendarPage extends React.Component {
 	constructor () {
 	    super()
@@ -57,50 +39,35 @@ export default class CalendarPage extends React.Component {
 					    defaultDate={new Date()}
 					    date={this.state.dayChosen}
 						onNavigate={(focusDate, flipUnit, prevOrNext) => {
+							const _this = this;
+							let now = new Date();
+							let min = moment(now).add(1, "month").toDate();
+							let current = _this.state.dayChosen;
+							let nextMonth = moment(current).add(1, "month").toDate();
+							let prevMonth = moment(current).subtract(1, "month").toDate();
 
-						const _this = this;
-						let now = new Date();
-						let nowNum = now.getDate();
-						let min = moment(now).add(1, "month").toDate();
-						let minNum = min.getDate();
-						let current = _this.state.dayChosen;
-						let currentNum = current.getDate();
-						let nextMonth = moment(current).add(1, "month").toDate();
-						let nextMonthNum = nextMonth.getDate();
-						let prevMonth = moment(current).subtract(1, "month").toDate();
-						let prevMonthNum = prevMonth.getDate();
-
-						  if (prevOrNext === "NEXT"){
-						        _this.setState({
-						          dayChosen: nextMonth
-						        });
-						  } else if (prevOrNext === "PREV" && current < min) {
-						  		_this.setState({
-						          dayChosen: now
-						        });
-						  } else if (prevOrNext === "PREV"){
-							  	_this.setState({
-									dayChosen: prevMonth
-							  	});
-						  }
-						}}
+							  if (prevOrNext === "NEXT"){
+							        _this.setState({
+							          dayChosen: nextMonth
+							        });
+							  } else if (prevOrNext === "PREV" && current < min) {
+							  		_this.setState({
+							          dayChosen: now
+							        });
+							  } else if (prevOrNext === "PREV"){
+								  	_this.setState({
+										dayChosen: prevMonth
+								  	});
+							  } else if (prevOrNext === "TODAY") {
+							  		_this.setState({
+							          dayChosen: now
+							        });
+								}
+							}
+						}
 				      />
 				</div>
 			</div>
 		);
-
-		// return (
-		// 	<div>
-		// 		<iframe src="https://calendar.google.com/calendar/embed?src=51dtqg3dukqtjp0i3delels808%40group.calendar.google.com&ctz=America%2FLos_Angeles" ></iframe>
-		// 	</div>
-		// );
-
-		// return (
-		// 	<div id="calendar-container">
-		// 		<p id="calendar-p">
-		// 			This calendar feature to reference while making your reservation is not available right now.  We will get it up and running as soon as possible.
-		// 		</p>
-		// 	</div>
-		// );
 	}
 }
