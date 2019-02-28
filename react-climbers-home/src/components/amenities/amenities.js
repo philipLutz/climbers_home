@@ -1,4 +1,5 @@
-import React 	from 'react';
+import React 		from 'react';
+import Slideshow	from './slideshow.js';
 import './amenities.css';
 
 export default class AmenitiesPage extends React.Component {
@@ -11,8 +12,9 @@ export default class AmenitiesPage extends React.Component {
 				</div>
 				<div id="amenities">
 					<p>
-						This is going to be a bunch of info about what Climber's Home has to offer its bolt clipping obsessed customers.  This is going to be a bunch of info about what Climber's Home has to offer its bolt clipping obsessed customers.  This is going to be a bunch of info about what Climber's Home has to offer its bolt clipping obsessed customers.  This is going to be a bunch of info about what Climber's Home has to offer its bolt clipping obsessed customers.  This is going to be a bunch of info about what Climber's Home has to offer its bolt clipping obsessed customers.  This is going to be a bunch of info about what Climber's Home has to offer its bolt clipping obsessed customers.
+						In addition to offering a comfy bed in a private room, our hostel has a full kitchen, bathroom, and climbing gym for all guests to use.  There is free Wifi throughout the hostel.  We warmly welcome you to our home and would love for you to enjoy our community and your time spent climbing at the Red River Gorge.  
 					</p>
+					<Slideshow />
 				</div>
 			</div>
 		);
