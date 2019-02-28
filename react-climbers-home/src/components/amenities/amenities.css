@@ -28,18 +28,45 @@
 #amenities {
 	color: #fff;
 	background-color: #29292a;
+	padding-top: 7vh;
 }
 
 #amenities p {
 	background-color: #29292a;
 	margin: 0;
-	padding: 7vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-top: 6vh;
+	padding-bottom: 3vh;
 	font-size: 17px;
+	line-height: 18px;
+}
+
+#slideshow-container {
+	width: 60vw;
+	background-color: #29292a;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slideshow-container img {
+	width: 60vw;
+	max-height: auto;
 }
 
 @media only screen and (min-width: 800px) {
 	#amenities p {
-		padding-left: 10vw;
-		padding-right: 10vw;
+		padding-left: 12vw;
+		padding-right: 12vw;
+		padding-top: 3vh;
+	}
+
+	#slideshow-container {
+		width: 48vw;
+	}
+
+	#slideshow-container img {
+		width: 48vw;
+		max-height: auto;
 	}
 }
