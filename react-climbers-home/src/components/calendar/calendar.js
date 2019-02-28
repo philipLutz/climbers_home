@@ -1,4 +1,5 @@
 import React 			from 'react';
+import { Link } 		from 'react-router-dom';
 import moment 			from 'moment';
 import BigCalendar 		from 'react-big-calendar';
 import { getEvents } 	from './getEvents.js';
@@ -66,6 +67,11 @@ export default class CalendarPage extends React.Component {
 							}
 						}
 				      />
+				</div>
+				<div id="calendar-p">
+					<p>
+						To help plan your stay at Climber's Home, this calendar displays the rooms that are already booked.  If a room is not displayed during a given time, it is available to be booked.  Please <Link to="/contact" target="_blank"><i>contact Sunny</i></Link> to book your accommodation or if you have any questions.
+					</p>
 				</div>
 			</div>
 		);

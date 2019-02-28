@@ -1,4 +1,5 @@
 import React 	from 'react';
+import { Link } from 'react-router-dom';
 import './contact.css';
 
 export default class ContactPage extends React.Component {
@@ -9,6 +10,7 @@ export default class ContactPage extends React.Component {
 			<div id="contact-container">
 				<div id="contact-image">
 					<h2>contact</h2>
+					<div className="blur2"></div>
 				</div>
 				<div id="contact">
 					<div id="facebook-container" className="container">
@@ -26,7 +28,7 @@ export default class ContactPage extends React.Component {
 							<a href="mailto:sunnyang918@hotmail.com"><i className="fas fa-envelope-square"></i></a>
 						</div>
 						<div className="text-container">
-							Email Sunny at <a href="mailto:sunnyang918@hotmail.com">sunnyang918@hotmail.com</a>
+							Email Sunny at <a href="mailto:sunnyang918@hotmail.com">sunnyang918@hotmail.com</a>.  For any questions regarding room availability, please reference our <Link to="/calendar">calendar</Link> beforehand.
 						</div>
 					</div>
 					<div id="address-container" className="container">

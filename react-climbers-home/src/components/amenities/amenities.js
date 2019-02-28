@@ -7,6 +7,7 @@ export default class AmenitiesPage extends React.Component {
 			<div id="amenities-container">
 				<div id="amenities-image">
 					<h2>amenities</h2>
+					<div className="blur2"></div>
 				</div>
 				<div id="amenities">
 					<p>

@@ -12,3 +12,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.blur1 {
+	background: linear-gradient(to top, rgba(41,41,42,1) 0%,rgba(41,41,42,0) 100%);
+	position: absolute;
+	height: 23vh;
+	width: 100vw;
+  bottom: 0;
+}
+
+.blur2 {
+	background: linear-gradient(to top, rgba(41,41,42,1) 0%,rgba(41,41,42,0) 100%);
+	position: absolute;
+	height: 1vh;
+	width: 100vw;
+  bottom: 0;
+}

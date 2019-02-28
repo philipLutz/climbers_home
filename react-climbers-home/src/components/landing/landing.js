@@ -6,10 +6,10 @@ export default class LandingPage extends React.Component {
 		return (
 			<div id="landing-container">
 				<div id="landing-image">
-					<div id="blur"></div>
+					<div className="blur1"></div>
 				</div>
 				<h3 id="tagline">
-					A loving home for climbers in the Red River Gorge
+					<i>A loving home for climbers in the Red River Gorge</i>
 				</h3>
 			</div>
 		);

@@ -13,7 +13,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 65% 60%;
-	height: 80vh;
+	height: 90vh;
 	color: #fff;
 	background-color: #29292a;
 }
@@ -23,7 +23,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 12% 60%;
-	height: 80vh;
+	height: 90vh;
 	color: #fff;
 	background-color: #29292a;
 }
@@ -33,7 +33,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 75% 0%;
-	height: 100vh;
+	height: 90vh;
 	color: #fff;
 	background-color: #29292a;
 }
@@ -76,4 +76,25 @@
 #beta {
 	color: #fff;
 	background-color: #29292a;
+}
+
+#beta a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#beta a:visited {
+	color: #fff;
+}
+
+#beta a:hover {
+	color: #61616B;
+}
+
+#beta a:focus {
+	color: #61616B;
+}
+
+#beta a:active {
+	color: #61616B;
 }

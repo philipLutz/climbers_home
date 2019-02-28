@@ -1,7 +1,7 @@
 #calendar-page {
 	position: absolute;
 	top: 10vh;
-	height: 150vh;
+	height: 120vh;
 	background-color: #29292a;
 	width: 100vw;
 }
@@ -24,8 +24,35 @@
 	outline: 0;
 }
 
+#calendar-p a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#calendar-p a:visited {
+	color: #fff;
+}
+
+#calendar-p a:hover {
+	color: #61616B;
+}
+
+#calendar-p a:focus {
+	color: #61616B;
+}
+
+#calendar-p a:active {
+	color: #61616B;
+}
+
 #calendar-p {
-	position: absolute;
-	top: 10vh;
-	padding: 20vw;
+	background-color: #29292a;
+	margin: 0;
+	padding-top: 2vw;
+	padding-bottom: 3vw;
+	padding-left: 7vw;
+	padding-right: 7vw;
+	font-size: 17px;
+	line-height: 23px;
+	color: #fff;
 }
