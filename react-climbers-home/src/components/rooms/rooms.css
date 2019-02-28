@@ -2,7 +2,7 @@
 	background-image: url("../../climbingPhotos/madnessCave3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 57% 40%;
+	background-position: 57% 47%;
 	height: 100vh;
 	color: #fff;
 	background-color: #29292a;
@@ -19,6 +19,18 @@
 }
 
 #rooms {
+	color: #fff;
+	background-color: #29292a;
+	display: ;
+}
+
+#bedroom-image {
+	background-image: url("../../hostelPhotos/bedroom3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 57% 47%;
+	height: 60vh;
+	width: 60vw;
 	color: #fff;
 	background-color: #29292a;
 }
