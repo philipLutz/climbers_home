@@ -1,5 +1,24 @@
-#rooms {
+#rooms-image {
+	background-image: url("../../climbingPhotos/madnessCave3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 57% 40%;
 	height: 100vh;
+	color: #fff;
+	background-color: #29292a;
+}
+
+#rooms-image h2 {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 3vh;
+	left: 6vw;
+	font-size: 9vh;
+	z-index: 1;
+}
+
+#rooms {
 	color: #fff;
 	background-color: #29292a;
 }
