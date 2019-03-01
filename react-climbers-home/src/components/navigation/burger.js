@@ -39,14 +39,11 @@ export default class Burger extends React.Component {
         <Link to="/amenities" onClick={() => this.closeMenu()}>
           <h5>Amenities</h5>
         </Link>
-        <Link to="/rooms" onClick={() => this.closeMenu()}>
-          <h5>Rooms</h5>
+        <Link to="/beta" onClick={() => this.closeMenu()}>
+          <h5>Beta</h5>
         </Link>
         <Link to="/calendar" onClick={() => this.closeMenu()}>
           <h5>Calendar</h5>
-        </Link>
-        <Link to="/beta" onClick={() => this.closeMenu()}>
-          <h5>Beta</h5>
         </Link>
         <Link to="/contact" onClick={() => this.closeMenu()}>
           <h5>Contact</h5>

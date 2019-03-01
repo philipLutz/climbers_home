@@ -68,9 +68,27 @@ export default class CalendarPage extends React.Component {
 						}
 				      />
 				</div>
+				<div id="room-list">
+					<div className="room-type">
+						<h5>Single</h5>
+						<div>Room 1: $30</div>
+					</div>
+					<div className="room-type">
+						<h5>Couple</h5>
+						<div>Room 3: $50</div>
+						<div>Room 4: $50</div>
+						<div>Room 5: $60</div>
+						<div>Room 6: $80</div>
+						<div>Room 7: $80</div>
+					</div>
+					<div className="room-type">
+						<h5>Family</h5>
+						<div>Room 2: $100</div>
+					</div>
+				</div>
 				<div id="calendar-p">
 					<p>
-						To help plan your stay at Climber's Home, this calendar displays the rooms that are already booked.  If a room is not displayed during a given time, it is available to be booked.  Please <Link to="/contact" target="_blank"><i>contact Sunny</i></Link> to book your accommodation or if you have any questions.
+						To help plan your stay at Climber's Home, this calendar displays the rooms that are already booked.  If a room is not displayed during a given time, it is available to be booked.  Our hostel has several different room options:  single, couples, and family.  Room rates are for one night and do not include tax.  Please <Link to="/contact" target="_blank"><i>contact Sunny</i></Link> to book your accommodation or if you have any questions.
 					</p>
 				</div>
 			</div>

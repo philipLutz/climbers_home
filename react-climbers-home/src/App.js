@@ -6,7 +6,6 @@ import CalendarPage           from './components/calendar/calendar';
 import ContactPage            from './components/contact/contact';
 import LandingPage            from './components/landing/landing';
 import Navigation             from './components/navigation/navigation';
-import RoomsPage              from './components/rooms/rooms';
 import './App.css';
 
 require('dotenv').config();
@@ -24,7 +23,6 @@ class App extends Component {
           <Route exact path="/beta" component={BetaPage} />
           <Route exact path="/calendar" component={CalendarPage} />
           <Route exact path="/contact" component={ContactPage} />
-          <Route exact path="/rooms" component={RoomsPage} />
         </main>
       </div>
     );

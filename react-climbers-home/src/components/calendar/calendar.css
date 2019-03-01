@@ -52,7 +52,31 @@
 	padding-bottom: 3vw;
 	padding-left: 7vw;
 	padding-right: 7vw;
-	font-size: 17px;
+	font-size: 19px;
 	line-height: 23px;
 	color: #fff;
+}
+
+#room-list {
+	background-color: #29292a;
+	margin: 0;
+	font-size: 19px;
+	line-height: 23px;
+	color: #fff;
+	display: flex;
+}
+
+#room-list h5 {
+	font-size: 20px;
+	margin: 1vh;
+	margin-top: 7vh;
+}
+
+#room-list div {
+	flex: 1;
+}
+
+#room-type {
+	width: 300px;
+	/*flex: 1;*/
 }
