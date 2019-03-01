@@ -1,1 +1,0 @@
-{"ast":null,"code":"var R = require('ramda');\n\nvar DEFAULTS = {\n  explicitChildren: true,\n  preserveChildrenOrder: true,\n  explicitRoot: false,\n  attrkey: 'props',\n  childkey: 'children',\n  tagkey: 'tagname'\n};\n\nmodule.exports = function (opts) {\n  return R.merge(DEFAULTS, opts || {});\n};","map":null,"metadata":{},"sourceType":"script"}

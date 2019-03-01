@@ -1,1 +1,0 @@
-{"ast":null,"code":"var R = require('ramda');\n\nmodule.exports = R.curry(function indexOfRegExp(delim, text) {\n  var results = delim.exec(text);\n  return results && results.index || -1;\n});","map":null,"metadata":{},"sourceType":"script"}

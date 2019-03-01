@@ -1,1 +1,0 @@
-{"ast":null,"code":"var R = require('ramda');\n\nmodule.exports = R.curry(function customRoot(opts, value) {\n  if (this.isRoot) {\n    if (opts.tagname) {\n      value.tagname = opts.tagname;\n    }\n\n    if (opts.props) {\n      value.props = R.merge(value.props || {}, opts.props);\n    }\n  }\n});","map":null,"metadata":{},"sourceType":"script"}
