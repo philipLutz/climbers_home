@@ -1,0 +1,1 @@
+{"ast":null,"code":"var regexp;\n\nmodule.exports = function coerceToRegExp(stringOrRegExp) {\n  var result = stringOrRegExp;\n\n  if (typeof result === 'string') {\n    eval('regexp = ' + stringOrRegExp);\n    result = regexp;\n  }\n\n  return result;\n};","map":null,"metadata":{},"sourceType":"script"}
