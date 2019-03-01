@@ -1,0 +1,106 @@
+#navigation {
+  background-color: #29292a;
+  color: #fff;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+#navigation button:focus {
+  outline: 0;
+}
+
+#navigation h5:focus {
+  outline: 0;
+}
+
+#navigation a:focus {
+  outline: 0;
+}
+
+#navigation button:active {
+  outline: 0;
+}
+
+#navigation h5:active {
+  outline: 0;
+}
+
+#navigation a:active {
+  outline: 0;
+}
+
+#navigation h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  width: 50vw;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2vh;
+  font-size: 4vh;
+}
+
+#logo-container {
+	height: 9vh;
+	width: 9vh;
+	padding: 1vh;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 6vh;
+  height: 6vh;
+  right: 2vh;
+  top: 2vh;
+}
+
+.bm-burger-bars {
+  background: #fff;
+}
+
+.bm-burger-bars-hover {
+  background: #61616B;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  top: 10vh;
+}
+
+.bm-menu {
+  background: #29292a;
+  font-size: 3vh;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  top: 10vh;
+}
+
+.bm-item {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bm-item:hover {
+  color: #61616B;
+}
+
+.bm-item:focus {
+  color: #61616B;
+}
+
+.bm-item:active {
+  color: #61616B;
+}
+
+@media only screen and (max-width: 750px) {
+  #navigation h3 {
+    padding-top: 0.5vh;
+  }
+}

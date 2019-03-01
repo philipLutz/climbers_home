@@ -1,0 +1,100 @@
+#beta-image {
+	background-image: url("../../climbingPhotos/Nagypapa.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 60% 37%;
+	height: 100vh;
+	color: #fff;
+	background-color: #29292a;
+}
+
+#madness-cave-photo3 {
+	background-image: url("../../climbingPhotos/madnessCave3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 65% 60%;
+	height: 90vh;
+	color: #fff;
+	background-color: #29292a;
+}
+
+#madness-cave-photo2 {
+	background-image: url("../../climbingPhotos/madnessCave2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 12% 60%;
+	height: 90vh;
+	color: #fff;
+	background-color: #29292a;
+}
+
+#drive-by {
+	background-image: url("../../climbingPhotos/driveBy.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 75% 0%;
+	height: 90vh;
+	color: #fff;
+	background-color: #29292a;
+}
+
+#beta-image h2 {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 3vh;
+	left: 10vw;
+	font-size: 11vh;
+}
+
+#beta h4 {
+	margin: 0;
+	color: #fff;
+	background-color: #29292a;
+	font-size: 28px;
+	padding-top: 6vw;
+}
+
+#beta p {
+	background-color: #29292a;
+	margin: 0;
+	padding-top: 1vw;
+	padding-bottom: 3vw;
+	padding-left: 7vw;
+	padding-right: 7vw;
+	font-size: 17px;
+	line-height: 23px;
+}
+
+@media only screen and (min-width: 800px) {
+	#beta p {
+		padding-left: 12vw;
+		padding-right: 12vw;
+	}
+}
+
+#beta {
+	color: #fff;
+	background-color: #29292a;
+}
+
+#beta a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#beta a:visited {
+	color: #fff;
+}
+
+#beta a:hover {
+	color: #61616B;
+}
+
+#beta a:focus {
+	color: #61616B;
+}
+
+#beta a:active {
+	color: #61616B;
+}

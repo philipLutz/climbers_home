@@ -1,0 +1,72 @@
+#amenities-image {
+	background-image: url("../../climbingPhotos/Lizzy.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 20% 40%;
+	height: 100vh;
+	color: #fff;
+	background-color: #29292a;
+}
+
+#amenities-image h2 {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 3vh;
+	right: 3vw;
+	font-size: 9vh;
+	z-index: 1;
+}
+
+@media only screen and (min-width: 900px) {
+	#amenities-image h2 {
+		font-size: 10vh;
+		right: 6vw;
+	}
+}
+
+#amenities {
+	color: #fff;
+	background-color: #29292a;
+	padding-top: 7vh;
+}
+
+#amenities p {
+	background-color: #29292a;
+	margin: 0;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-top: 6vh;
+	padding-bottom: 3vh;
+	font-size: 17px;
+	line-height: 18px;
+}
+
+#slideshow-container {
+	width: 60vw;
+	background-color: #29292a;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#slideshow-container img {
+	width: 60vw;
+	max-height: auto;
+}
+
+@media only screen and (min-width: 800px) {
+	#amenities p {
+		padding-left: 12vw;
+		padding-right: 12vw;
+		padding-top: 3vh;
+	}
+
+	#slideshow-container {
+		width: 48vw;
+	}
+
+	#slideshow-container img {
+		width: 48vw;
+		max-height: auto;
+	}
+}

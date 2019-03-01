@@ -1,0 +1,96 @@
+#contact-image {
+	background-image: url("../../climbingPhotos/madnessCave1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 12% 40%;
+	height: 100vh;
+	color: #fff;
+	background-color: #29292a;
+}
+
+#contact-image h2 {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 3vh;
+	right: 3vw;
+	font-size: 9vh;
+}
+
+#contact {
+	height: 157vh;
+	color: #fff;
+	background-color: #29292a;
+}
+
+#contact .container {
+	padding: 1vw;
+	padding-top: 6vh;
+	font-size: 19px;
+}
+
+#contact .icon-container {
+	padding: 1vw;
+}
+
+#contact .text-container {
+	padding: 1vw;
+	padding-left: 20vw;
+	padding-right: 20vw;
+}
+
+#contact a {
+	color: #fff;
+}
+
+#contact a:visited {
+	color: #fff;
+}
+
+#contact a:hover {
+	color: #61616B;
+}
+
+#contact a:focus {
+	color: #61616B;
+}
+
+#contact a:active {
+	color: #61616B;
+}
+
+#contact i {
+	font-size: 10vh;
+}
+
+#contact i:hover {
+	color: #61616B;
+}
+
+#contact i:focus {
+	color: #61616B;
+}
+
+#contact i:active {
+	color: #61616B;
+}
+
+@media only screen and (min-height: 900px) {
+	#contact-image h2 {
+		font-size: 10vh;
+		right: 6vw;
+	}
+
+	#contact {
+		height: 140vh;
+	}
+
+	#contact .text-container {
+		padding-left: 30vw;
+		padding-right: 30vw;
+	}
+}
+
+#map-image-container {
+	background-color: #29292a;
+}

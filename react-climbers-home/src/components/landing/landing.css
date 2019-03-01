@@ -1,0 +1,21 @@
+#landing-image {
+	background-image: url("../../climbingPhotos/goldCoastLari.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 80% 13%;
+	height: 90vh;
+	color: #fff;
+	background-color: #29292a;
+	position: relative;
+	top: 10vh;
+}
+
+#tagline {
+	color: #fff;
+	position: absolute;
+	bottom: 1vh;
+	left: 3vw;
+	font-size: 23px;
+	margin: 0;
+	width: 80vw;
+}
