@@ -19,10 +19,10 @@ class App extends Component {
             <Navigation />
           </div>
           <Route exact path="/" component={LandingPage} />
-          <Route exact path="/amenities" component={AmenitiesPage} />
-          <Route exact path="/beta" component={BetaPage} />
-          <Route exact path="/calendar" component={CalendarPage} />
-          <Route exact path="/contact" component={ContactPage} />
+          <Route path="/amenities" component={AmenitiesPage} />
+          <Route path="/beta" component={BetaPage} />
+          <Route path="/calendar" component={CalendarPage} />
+          <Route path="/contact" component={ContactPage} />
         </main>
       </div>
     );
