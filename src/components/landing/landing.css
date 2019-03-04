@@ -1,5 +1,5 @@
 #landing-image {
-	background-image: url("../../climbingPhotos/goldCoastLari.jpg");
+	background-image: url("../../climbingPhotos/goldCoastLariPro.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 80% 13%;
@@ -12,10 +12,9 @@
 
 #tagline {
 	color: #fff;
+	font-size: 23px;
 	position: absolute;
 	bottom: 1vh;
-	left: 3vw;
-	font-size: 23px;
 	margin: 0;
-	width: 80vw;
+	width: 100vw;
 }
