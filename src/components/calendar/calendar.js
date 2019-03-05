@@ -33,6 +33,7 @@ export default class CalendarPage extends React.Component {
 					<BigCalendar 
 						id="calendar"
 						events={this.state.events}
+						popup
 					    views={['month']}
 					    localizer={localizer}
 					    showMultiDayTimes
