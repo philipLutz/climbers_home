@@ -7,7 +7,6 @@ export default class BetaPage extends React.Component {
 			<div id="beta-container">
 				<div id="beta-image">
 					<h2>beta</h2>
-					<div className="blur2"></div>
 				</div>
 				<div id="beta">
 					<h4>Season</h4>

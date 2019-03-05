@@ -9,11 +9,3 @@
 	width: 100vw;
   bottom: 0;
 }
-
-.blur2 {
-	background: linear-gradient(to top, rgba(41,41,42,1) 0%,rgba(41,41,42,0) 100%);
-	position: absolute;
-	height: 3vh;
-	width: 100vw;
-  bottom: 0;
-}

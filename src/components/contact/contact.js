@@ -10,7 +10,6 @@ export default class ContactPage extends React.Component {
 			<div id="contact-container">
 				<div id="contact-image">
 					<h2>contact</h2>
-					<div className="blur2"></div>
 				</div>
 				<div id="contact">
 					<div id="facebook-container" className="container">
