@@ -5,7 +5,7 @@ import './contact.css';
 export default class ContactPage extends React.Component {
 	render() {
 		const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
-		const logoPath = "https://raw.githubusercontent.com/philipLutz/climbers_home/develop/react-climbers-home/src/hostelPhotos/climbersHomeLogoBlkWht.png";
+		const logoPath = "https://raw.githubusercontent.com/philipLutz/climbers_home/master/src/hostelPhotos/climbersHomeLogo.png";
 		return (
 			<div id="contact-container">
 				<div id="contact-image">
